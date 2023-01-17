@@ -1,0 +1,84 @@
+---
+title: "Data-Scientific Programming: Assignment 3"
+author: "Your Name"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+
+##### Directions: Read [sections 5.1-5.7 in R for Data Science](https://r4ds.had.co.nz/data-visualisation.html). As you read, answer the following questions. Also, think about the questions in the text's exercises and be prepared to answer and discuss these during class.
+
+
+```{r}
+library(tidyverse)
+```
+
+
+##### The file `Ames_Housing.csv` contains data on houses that sold in Ames, Iowa between 2006 and 2010. We'll work with these data in this assignment. 
+
+## Question 1
+
+### a) Load the data into R using the `read_csv` command. Assign it the name `Housing`. 
+
+```{r}
+#Enter core here
+```
+
+
+### b) Display the first six rows of the dataset. 
+
+```{r}
+#Enter core here
+```
+
+
+### c) How many rows are in the dataset? How many columns? What does each row represent? What does each column represent?
+
+```{r}
+#Enter core here
+```
+
+Type text here. 
+
+
+## Question 2
+
+### a) We will only consider a handful of the variables in the dataset. Create a dataset containing only the following columns. `Id`, `Neighborhood`, `YearBuilt`, `GrLivArea`, `GarageYrBlt`, `PavedDrive`, `PoolArea`, `MoSold`, `YrSold`, `SalePrice`. Display the `head` of the dataset. 
+
+```{r}
+#Enter core here
+```
+
+### b) Create a dataset containing only houses that sold in 2009 or later and sort in decreasing order, based on `YearBuilt`. Display the `head` of this new dataset. 
+
+```{r}
+#Enter core here
+```
+
+
+### c) Create a dataset containing only houses that sold in the North Ames (`NAmes`) neighborhood sort in decreasing order, based on `SalePrice`. Display the `head` of this new dataset. 
+
+```{r}
+#Enter core here
+```
+
+
+### d) A family looking to buy a home insists on the following conditions:
+1. The house house must have at least 2500 square feet. (Square feet are given by `GrLivArea`)    
+2. The house must either be in either the `NridgHt`, `CollgCr`, or `NAmes` neighborhoods.
+3. The house must be either new (built after 2005), or a century home (built before 1923). 
+4. The house must cost less than $500,000. 
+ 
+
+
+### Display only houses that meet these conditions. How many such houses are there?
+
+```{r}
+#Enter core here
+```
+
+Type text here. 
+
