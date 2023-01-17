@@ -1,6 +1,6 @@
 ---
 title: "Data-Scientific Programming: Assignment 3"
-author: "Your Name"
+author: "Stephaune Haylock"
 output: pdf_document
 ---
 
